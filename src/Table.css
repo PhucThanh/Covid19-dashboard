@@ -1,0 +1,47 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 350px;
+  color: #6a5d5d;
+  overflow-x: hidden;
+}
+
+/* .table tr {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.table td,
+th {
+  padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse;
+  width: 450px;
+}
+th {
+  background: #f3f2f8;
+  height: 30px;
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+.td-country {
+  cursor: pointer;
+}
+.td-country:hover {
+  text-decoration: underline;
+}
+.td-red {
+  color: red;
+}
+.td-green {
+  color: green;
+}
